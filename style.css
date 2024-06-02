@@ -152,24 +152,22 @@ header {
   background: linear-gradient(#f4f4f4, rgba(255, 255, 255, 0.22));
   border-radius: 10px;
   margin-bottom: 30px;
+  overflow: hidden;
 }
 
 #top-section-prime-button {
   color: #ffffff;
   border-radius: 100px;
-  width: 72px;
-  height: 30px;
-  border: none;
+  padding: 9px;
+  width: fit-content;
   font-size: 12px;
   font-weight: 700;
   border: none;
   background: linear-gradient(#e08100, #c90027);
 }
-
-#top-secton-prime-button:hover {
-  padding: 40px, 50px;
-  transform: scale(1.5s);
-  transition: padding 0.5s, transform 0.5s, opacity 0.5s;
+#top-section-prime-button:hover {
+  padding: 9px 15px;
+  transition: 0.5s;
 }
 
 .top-section-introduction-text {
@@ -193,11 +191,14 @@ header {
   opacity: 0.4;
 }
 
-.top-section-button {
-  width: 65px;
-  height: 36px;
+.top-section-introduction-text .top-section-button {
+  padding: 12px 15px;
+  background-color: #ffffff;
+}
+
+.top-section-share-icon {
+  padding: 9px;
   border-radius: 100px;
-  background: #f0efef;
   border: none;
   display: flex;
   justify-content: center;
@@ -205,11 +206,12 @@ header {
   font-weight: 700;
   font-size: 16px;
   color: #767676;
-  transition: transform 0.5s;
+  width: fit-content;
 }
 
-.top-section-button:hover img {
+.top-section-share-icon:hover img {
   transform: rotate(40deg);
+  transition: transform 0.5s;
 }
 
 #top-section-introduction-prime-image {
@@ -220,8 +222,7 @@ header {
 #top-section-introduction-prime-image:hover {
   transform: scale(1.2);
 }
-
-#top-section-imtroduction-prime-image:hover .prime-image-hover {
+#top-section-introduction-prime-image:hover .prime-image-hover {
   opacity: 1;
 }
 
