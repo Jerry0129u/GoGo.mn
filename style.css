@@ -447,7 +447,7 @@ header {
   height: 100%;
 }
 
-.story-view span{
+.story-view span {
   position: absolute;
   font-family: Helvetica Neue;
   font-size: 12px;
@@ -460,7 +460,7 @@ header {
 
 /* NEWS SECTION */
 
-#daylight-header span{
+#daylight-header span {
   font-size: 16px;
   font-weight: 700;
   color: #407ce8;
@@ -537,7 +537,7 @@ header {
   line-height: 22px;
 }
 
-.news-icon  {
+.news-icon {
   display: flex;
   flex-direction: row;
   padding-top: 15px;
@@ -557,7 +557,7 @@ header {
 }
 
 .news-icon h2::before {
-  content: url(images/time-icon.png );
+  content: url(images/time-icon.png);
 }
 
 .news-icon h2 {
@@ -613,7 +613,7 @@ header {
   padding: 20.5px 295.83px 21.01px 291.38px;
   border-radius: 5px;
   border: 1px;
-  background: #F8F8F8;
+  background: #f8f8f8;
   gap: 5px;
 }
 
@@ -626,4 +626,11 @@ header {
 
 #news-link span::after {
   content: url(images/news-link-comment.png);
+}
+
+#news-section-right-side-header {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
 }
